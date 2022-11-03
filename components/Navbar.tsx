@@ -19,7 +19,11 @@ export const Navbar = () => {
 
       <nav className="hidden md:flex flex-row gap-4 lg:gap-8">
         {navLinks.map((l, i) => (
-          <Link href={l.href} key={i}>
+          <Link
+            href={l.href}
+            key={i}
+            className="hover:text-fuchsia-500 hover:underline transition-all"
+          >
             {l.title}
           </Link>
         ))}
