@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-stone-800 text-stone-100;
+  @apply bg-stone-100 text-stone-800 dark:bg-stone-800 dark:text-stone-100;
 }
