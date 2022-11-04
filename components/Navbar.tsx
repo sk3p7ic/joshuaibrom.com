@@ -15,17 +15,19 @@ const navLinks: NavLink[] = [
 
 export const Navbar = () => {
   return (
-    <header className="w-screen flex flex-col md:flex-row md:justify-between px-2 sm:px-4 md:px-8 lg:px-16 xl:px-32 py-4">
-      <h2>joshua ibrom</h2>
+    <header className="w-screen flex flex-col md:flex-row md:justify-between md:items-center px-2 sm:px-4 md:px-8 lg:px-16 xl:px-32 py-4">
+      <h2 className="font-nunito text-lg md:text-2xl lg:text-3xl">
+        joshua ibrom
+      </h2>
 
-      <div className="flex flex-col md:flex-row gap-2">
+      <div className="flex flex-col md:flex-row gap-8 items-center">
         <ThemeToggleButton />
         <nav className="hidden md:flex flex-row gap-4 lg:gap-8">
           {navLinks.map((l, i) => (
             <Link
               href={l.href}
               key={i}
-              className="hover:text-fuchsia-500 hover:underline transition-all"
+              className="font-nunito text-lg md:text-xl lg:text-2xl hover:text-fuchsia-500 hover:underline transition-all"
             >
               {l.title}
             </Link>
