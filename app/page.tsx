@@ -1,5 +1,11 @@
+import { Banner } from "../components/Home/Banner";
+
 const HomePage = () => {
-  return <h1>Hello world!</h1>;
+  return (
+    <main>
+      <Banner />
+    </main>
+  );
 };
 
 export default HomePage;
