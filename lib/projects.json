@@ -1,0 +1,32 @@
+[
+  {
+    "name": "JagTrucks",
+    "stack": [
+      ["React", "react"],
+      ["Bootstrap", "bootstrap"],
+      ["Node.js", "node"],
+      ["Express", "express"],
+      ["MongoDB", "mongodb"]
+    ],
+    "type": "fullstack",
+    "headerImgSrc": "",
+    "links": [
+      {
+        "type": "deployed",
+        "url": "https://wad-jagtrucks.herokuapp.com",
+        "tooltip": ""
+      },
+      {
+        "type": "github-repo",
+        "url": "https://github.com/sk3p7ic/wad-JagTrucks",
+        "tooltip": "Github: wad-JagTrucks"
+      },
+      {
+        "type": "github-repo",
+        "url": "https://github.com/sk3p7ic/wad-JagTrucks-backend",
+        "tooltip": "Github: wad-JagTrucks-backend"
+      }
+    ],
+    "description": "A basic proof-of-concept website for allowing students at the TAMU-SA campus to more easily find which food trucks are on campus on a given day, and more."
+  }
+]
