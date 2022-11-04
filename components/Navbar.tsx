@@ -56,7 +56,7 @@ export const Navbar = () => {
           <Link
             href={l.href}
             key={i}
-            className="font-nunito text-lg md:text-xl lg:text-2xl hover:text-fuchsia-500 hover:underline transition-all"
+            className="font-nunito text-lg md:text-xl lg:text-2xl hover:text-amber-800 dark:hover:text-fuchsia-500 hover:underline transition-all"
           >
             {l.title}
           </Link>
@@ -73,7 +73,7 @@ export const Navbar = () => {
           <Link
             href={l.href}
             key={i}
-            className="font-nunito text-lg text-fuchsia-800 dark:text-fuchsia-500 bg-stone-300 dark:bg-stone-900 px-2 py-1 rounded-md"
+            className="font-nunito text-lg text-stone-800 dark:text-fuchsia-500 bg-amber-500 dark:bg-stone-900 px-2 py-1 rounded-md"
           >
             {l.title}
           </Link>
