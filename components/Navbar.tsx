@@ -70,7 +70,11 @@ export const Navbar = () => {
         ref={mobileMenuRef}
       >
         {navLinks.map((l, i) => (
-          <Link href={l.href} key={i}>
+          <Link
+            href={l.href}
+            key={i}
+            className="font-nunito text-lg text-fuchsia-800 dark:text-fuchsia-500 bg-stone-300 dark:bg-stone-900 px-2 py-1 rounded-md"
+          >
             {l.title}
           </Link>
         ))}
