@@ -13,7 +13,7 @@ const navLinks: NavLink[] = [
   { href: "/#home", title: "home" },
   { href: "/#projects", title: "projects" },
   { href: "/#about", title: "about" },
-  { href: "/#contact", title: "contact" },
+  { href: "/#socials", title: "socials" },
 ];
 
 export const Navbar = () => {
