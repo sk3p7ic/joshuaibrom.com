@@ -9,7 +9,7 @@
       ["MongoDB", "mongodb"]
     ],
     "type": "fullstack",
-    "headerImgSrc": "",
+    "headerImgSrc": "jag_trucks.png",
     "links": [
       {
         "type": "deployed",
@@ -39,7 +39,7 @@
       ["MongoDB", "mongodb"]
     ],
     "type": "frontend",
-    "headerImgSrc": "",
+    "headerImgSrc": "sk3p7ic_dev.png",
     "links": [
       {
         "type": "deployed",
@@ -67,7 +67,7 @@
       ["TypeScript", "typescript"]
     ],
     "type": "frontend",
-    "headerImgSrc": "",
+    "headerImgSrc": "personal_site.png",
     "links": [
       {
         "type": "deployed",
@@ -84,7 +84,7 @@
       ["Sass", "sass"]
     ],
     "type": "frontend",
-    "headerImgSrc": "",
+    "headerImgSrc": "sorting_visualizer.png",
     "links": [
       {
         "type": "deployed",
