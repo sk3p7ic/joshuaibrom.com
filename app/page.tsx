@@ -1,3 +1,4 @@
+import { About } from "../components/Home/About";
 import { Banner } from "../components/Home/Banner";
 import { Projects } from "../components/Home/Projects";
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <main className="flex flex-col gap-8">
       <Banner />
       <Projects />
+      <About />
     </main>
   );
 };
