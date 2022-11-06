@@ -46,6 +46,7 @@ export const ProjectCard = ({ project, baseImagePath }: ProjectCardProps) => {
           className="mx-8 py-2 text-xl text-center font-nunito bg-emerald-500 dark:bg-fuchsia-500 text-stone-800 dark:text-stone-100 rounded-lg transition-all duration-1000"
           referrerPolicy="no-referrer"
           target="_blank"
+          key={i}
         >
           {link.type === "deployed" && "Go to project."}
           {link.type === "repo" && "View repo."}
