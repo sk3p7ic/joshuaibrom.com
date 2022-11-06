@@ -33,7 +33,7 @@ export const Navbar = () => {
   };
 
   return (
-    <header className="w-screen flex flex-col md:flex-row md:items-center gap-2 md:gap-8 px-2 sm:px-4 md:px-8 lg:px-16 xl:px-32 py-4">
+    <header className="fixed bg-stone-100 dark:bg-stone-800 w-screen flex flex-col md:flex-row md:items-center gap-2 md:gap-8 px-2 sm:px-4 md:px-8 lg:px-16 xl:px-32 py-4 transition-colors duration-1000">
       <div className="w-full flex flex-row justify-between items-center">
         <h2 className="flex-grow font-nunito text-lg md:text-2xl lg:text-3xl">
           joshua ibrom
