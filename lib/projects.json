@@ -45,18 +45,8 @@
       "links": [
         {
           "type": "deployed",
-          "url": "https://wad-jagtrucks.herokuapp.com",
+          "url": "https://sk3p7ic.tech",
           "tooltip": ""
-        },
-        {
-          "type": "github-repo",
-          "url": "https://github.com/sk3p7ic/wad-JagTrucks",
-          "tooltip": "Github: wad-JagTrucks"
-        },
-        {
-          "type": "github-repo",
-          "url": "https://github.com/sk3p7ic/wad-JagTrucks-backend",
-          "tooltip": "Github: wad-JagTrucks-backend"
         }
       ],
       "description": "Website intended to advertise my services as a fullstack developer."
