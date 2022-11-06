@@ -1,6 +1,9 @@
+import Link from "next/link";
+import { MdFileDownload } from "react-icons/md";
+
 export const About = () => {
   return (
-    <div>
+    <div id="about">
       <h3 className="font-raleway text-4xl text-emerald-700 dark:text-cyan-500 transition-colors duration-1000">
         about.
       </h3>
@@ -14,6 +17,15 @@ export const About = () => {
         Java, Python, Powershell, and Bash, as well as a web development course
         focusing on Node.js applications using Express and MongoDB.
       </p>
+      <Link
+        href="/public/res/Resume.pdf"
+        target="_blank"
+        referrerPolicy="no-referrer"
+        className="flex flex-row items-center gap-2 underline"
+      >
+        <MdFileDownload size={24} />
+        <span>My Resume</span>
+      </Link>
     </div>
   );
 };
