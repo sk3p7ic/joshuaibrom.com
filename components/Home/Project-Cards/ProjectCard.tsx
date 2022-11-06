@@ -1,3 +1,5 @@
+import { ProjectTechPill } from "./ProjectTechPill";
+
 type ProjectType = {
   name: string;
   stack: string[][];
@@ -27,6 +29,11 @@ export const ProjectCard = ({ project, baseImagePath }: ProjectCardProps) => {
           {project.name.toLowerCase()}
         </h1>
         <h2 className="font-nunito text-lg">{project.type}</h2>
+      </div>
+      <div className="px-2 flex flex-row flex-wrap gap-2">
+        {project.stack.map(([long, short], i) => (
+          <ProjectTechPill techFullname={long} techShortname={short} key={i} />
+        ))}
       </div>
       <p className="px-4 pb-4 font-inter text-justify">{project.description}</p>
     </div>
