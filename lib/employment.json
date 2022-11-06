@@ -1,0 +1,57 @@
+[
+  {
+    "employer": "TAMU-SA University Police Dept.",
+    "title": "Student Worker",
+    "start_date": "2017 9 1",
+    "end_date": "2022 1 30",
+    "responsibilities": [
+      "While working for TAMU-SA UPD I carried out the following duties:",
+      [
+        "Parking enforcement.",
+        "General security.",
+        "Public assistance (car unlocks, battery boosts, tire changes, etc.).",
+        "Door unlocks."
+      ],
+      "I also was assigned to assist the Risk Manager during the summer of 2019 with the following:",
+      [
+        "Inventory of all chemicals in university laboratories.",
+        "Inspection of all university laboratories.",
+        "Creation of a new online inspection form for lab inspections.",
+        "Project correspondence."
+      ],
+      "Furthmore, during the COVID-19 pandemic I administered rapid tests for the faculty, staff, and residents on the campus."
+    ]
+  },
+  {
+    "employer": "Dollar General",
+    "title": "Lead Sales Associate",
+    "start_date": "2020 6 29",
+    "end_date": "2020 7 27",
+    "responsibilities": [
+      "While working for Dollar General, I carried out the following duties / tasks:",
+      [
+        "General cashier functions.",
+        "General stocker functions.",
+        "Counting of both my till, as well as other employees'.",
+        "Counting of the change fund and deposits at the end of the night.",
+        "Served as a keyholder for the store and the register.",
+        "Closed the store."
+      ]
+    ]
+  },
+  {
+    "employer": "Big State Electric",
+    "title": "Apprentice Electrician",
+    "start_date": "2021 5 15",
+    "end_date": "2021 8 2",
+    "responsibilities": [
+      "While working for Big State as an apprentice in the IBEW Apprenticeship Program, I carried out the following duties / tasks:",
+      [
+        "Building racks of EMT based off of a spec sheet.",
+        "Bending tubing for offsets, kicks, and 90s.",
+        "Teaching other apprentices how to assemble builds based off of the spec sheets and bend the tubing.",
+        "General pre-fabrication work."
+      ]
+    ]
+  }
+]

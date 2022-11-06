@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MdFileDownload } from "react-icons/md";
+import EmploymentHistory from "../../lib/employment.json";
 
 export const About = () => {
   return (
