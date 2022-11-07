@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { MdFileDownload } from "react-icons/md";
 import EmploymentHistory from "../../lib/employment.json";
+import { EmploymentCard } from "./Employment-Cards/EmploymentCard";
 
 export const About = () => {
   return (
@@ -27,6 +28,11 @@ export const About = () => {
         <MdFileDownload size={24} />
         <span>My Resume</span>
       </Link>
+      <div>
+        {EmploymentHistory.map((listing, i) => (
+          <EmploymentCard listing={listing} key={i} />
+        ))}
+      </div>
     </div>
   );
 };
