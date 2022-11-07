@@ -5,7 +5,7 @@ import { EmploymentCard } from "./Employment-Cards/EmploymentCard";
 
 export const About = () => {
   return (
-    <div id="about">
+    <div className="flex flex-col gap-4" id="about">
       <h3 className="font-raleway text-4xl text-emerald-700 dark:text-cyan-500 transition-colors duration-1000">
         about.
       </h3>
@@ -28,7 +28,7 @@ export const About = () => {
         <MdFileDownload size={24} />
         <span>My Resume</span>
       </Link>
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
         {EmploymentHistory.map((listing, i) => (
           <EmploymentCard listing={listing} key={i} />
         ))}
