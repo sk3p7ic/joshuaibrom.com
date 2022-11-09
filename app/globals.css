@@ -7,3 +7,23 @@
 .body-child {
   @apply bg-stone-100 text-stone-800 dark:bg-stone-800 dark:text-stone-100;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+html.dark > ::-webkit-scrollbar-track {
+  background-color: #1e293b;
+}
+
+html > ::-webkit-scrollbar-thumb {
+  background-color: #64748b;
+}
+
+html > ::-webkit-scrollbar-thumb:hover {
+  background-color: #475569;
+}
+
+html > ::-webkit-scrollbar-track {
+  background-color: #f1f5f9;
+}
