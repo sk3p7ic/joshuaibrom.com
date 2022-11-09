@@ -42,7 +42,7 @@ export const Socials = () => {
             href={listing.href}
             target="_blank"
             referrerPolicy="no-referrer"
-            className="flex flex-row gap-2 items-center text-emerald-500 dark:text-fuchsia-500 text-lg"
+            className="flex flex-row gap-2 items-center text-lg text-emerald-800 hover:text-emerald-500 dark:text-fuchsia-500 dark:hover:text-fuchsia-800 transition-colors"
           >
             {listing.iconElem}
             <span>{listing.title}</span>

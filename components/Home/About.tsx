@@ -26,7 +26,7 @@ export const About = () => {
         href="/res/Resume.pdf"
         target="_blank"
         referrerPolicy="no-referrer"
-        className="flex flex-row items-center gap-2 underline text-lg text-emerald-500 hover:text-emerald-800 dark:text-fuchsia-500 dark:hover:text-fuchsia-800 transition-colors"
+        className="flex flex-row items-center gap-2 underline text-lg text-emerald-800 hover:text-emerald-500 dark:text-fuchsia-500 dark:hover:text-fuchsia-800 transition-colors"
       >
         <MdFileDownload size={24} />
         <span>My Resume</span>
@@ -42,7 +42,7 @@ export const About = () => {
           href="https://www.linkedin.com/in/joshua-ibrom"
           target="_blank"
           referrerPolicy="no-referrer"
-          className="flex flex-row gap-1 items-center text-emerald-500 dark:text-fuchsia-500"
+          className="flex flex-row gap-1 items-center text-emerald-800 hover:text-emerald-500 dark:text-fuchsia-500 dark:hover:text-fuchsia-800 transition-colors"
         >
           <MdOpenInNew size={24} />
           my LinkedIn.
