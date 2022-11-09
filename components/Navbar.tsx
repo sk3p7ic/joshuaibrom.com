@@ -1,19 +1,18 @@
 "use client";
 import { useState, useRef } from "react";
-import Link from "next/link";
 import { MdMenu } from "react-icons/md";
 import { ThemeToggleButton } from "./ThemeToggleButton";
 
 type NavLink = {
-  href: string;
+  id: string;
   title: string;
 };
 
 const navLinks: NavLink[] = [
-  { href: "/#home", title: "home" },
-  { href: "/#projects", title: "projects" },
-  { href: "/#about", title: "about" },
-  { href: "/#socials", title: "socials" },
+  { id: "home", title: "home" },
+  { id: "projects", title: "projects" },
+  { id: "about", title: "about" },
+  { id: "socials", title: "socials" },
 ];
 
 export const Navbar = () => {
@@ -30,6 +29,10 @@ export const Navbar = () => {
     }
     setShowMobileMenu(false);
     setTimeout(() => setHeightMode("h-0"), 500);
+  };
+
+  const scrollTo = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -53,13 +56,13 @@ export const Navbar = () => {
       </div>
       <nav className="hidden md:flex flex-row gap-4 lg:gap-8">
         {navLinks.map((l, i) => (
-          <Link
-            href={l.href}
+          <button
+            onClick={() => scrollTo(l.id)}
             key={i}
             className="font-nunito text-lg md:text-xl lg:text-2xl hover:text-amber-800 dark:hover:text-fuchsia-500 hover:underline transition-all"
           >
             {l.title}
-          </Link>
+          </button>
         ))}
       </nav>
 
@@ -70,13 +73,13 @@ export const Navbar = () => {
         ref={mobileMenuRef}
       >
         {navLinks.map((l, i) => (
-          <Link
-            href={l.href}
+          <button
+            onClick={() => scrollTo(l.id)}
             key={i}
             className="font-nunito text-lg text-stone-800 dark:text-fuchsia-500 bg-amber-500 dark:bg-stone-900 px-2 py-1 rounded-md"
           >
             {l.title}
-          </Link>
+          </button>
         ))}
       </nav>
     </header>
