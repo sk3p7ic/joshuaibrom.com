@@ -5,8 +5,11 @@ import { EmploymentCard } from "./Employment-Cards/EmploymentCard";
 
 export const About = () => {
   return (
-    <div className="flex flex-col gap-4" id="about">
-      <h3 className="font-raleway text-4xl text-emerald-700 dark:text-cyan-500 transition-colors duration-1000">
+    <div className="flex flex-col gap-4">
+      <h3
+        id="about"
+        className="font-raleway text-4xl text-emerald-700 dark:text-cyan-500 transition-colors duration-1000"
+      >
         about.
       </h3>
       <p className="font-inter text-lg md:text-justify">
