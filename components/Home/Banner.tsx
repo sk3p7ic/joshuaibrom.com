@@ -4,7 +4,7 @@ import ProfileImage from "../../public/res/media/img/profile.png";
 export const Banner = () => {
   return (
     <div
-      className="flex flex-row justify-center items-center gap-12 pt-24 pb-4 border-b border-b-stone-800 dark:border-b-stone-100 transition-colors"
+      className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 pt-24 pb-4 border-b border-b-stone-800 dark:border-b-stone-100 transition-colors"
       id="home"
     >
       <Image
@@ -12,7 +12,7 @@ export const Banner = () => {
         alt="Me."
         className="rounded-full w-28 h-28 xl:w-36 xl:h-36 border border-stone-800 dark:border-stone-100 transition-colors"
       />
-      <div className="flex flex-col font-nunito">
+      <div className="flex flex-col items-center md:items-start font-nunito">
         <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold">
           Joshua Ibrom
         </h1>
