@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MdFileDownload } from "react-icons/md";
+import { MdFileDownload, MdOpenInNew } from "react-icons/md";
 import EmploymentHistory from "../../lib/employment.json";
 import { EmploymentCard } from "./Employment-Cards/EmploymentCard";
 
@@ -33,6 +33,18 @@ export const About = () => {
           <EmploymentCard listing={listing} key={i} />
         ))}
       </div>
+      <p className="font-inter text-lg inline-flex gap-2 items-center">
+        For more information about myself, please visit{" "}
+        <Link
+          href="https://www.linkedin.com/in/joshua-ibrom"
+          target="_blank"
+          referrerPolicy="no-referrer"
+          className="flex flex-row gap-1 items-center text-emerald-500 dark:text-fuchsia-500"
+        >
+          <MdOpenInNew size={24} />
+          my LinkedIn.
+        </Link>
+      </p>
     </div>
   );
 };
