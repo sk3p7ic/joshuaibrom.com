@@ -14,9 +14,7 @@ export default function RootLayout({
       </head>
       <body className="w-screen min-h-screen overflow-x-hidden bg-stone-100 text-stone-800 dark:bg-stone-800 dark:text-stone-100 transition-colors duration-1000">
         <Navbar />
-        <div className="mx-2 sm:mx-4 md:mx-8 lg:mx-32 xl:mx-64 pt-24 lg:pt-36">
-          {children}
-        </div>
+        <div className="mx-2 sm:mx-4 md:mx-8 lg:mx-32 xl:mx-64">{children}</div>
       </body>
     </html>
   );

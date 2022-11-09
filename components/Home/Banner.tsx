@@ -4,7 +4,7 @@ import ProfileImage from "../../public/res/media/img/profile.png";
 export const Banner = () => {
   return (
     <div
-      className="flex flex-row justify-center items-center gap-12 py-4 border-b border-b-stone-800 dark:border-b-stone-100 transition-colors"
+      className="flex flex-row justify-center items-center gap-12 pt-24 pb-4 border-b border-b-stone-800 dark:border-b-stone-100 transition-colors"
       id="home"
     >
       <Image
